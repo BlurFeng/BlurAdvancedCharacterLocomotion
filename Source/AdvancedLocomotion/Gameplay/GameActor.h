@@ -10,7 +10,7 @@
 #include "GameActor.generated.h"
 
 UCLASS()
-class BLURACTIONGAMEDEMO_API AGameActor : public AActor, public IGameplayTagAssetInterface
+class ADVANCEDLOCOMOTION_API AGameActor : public AActor, public IGameplayTagAssetInterface
 {
 	GENERATED_BODY()
 	

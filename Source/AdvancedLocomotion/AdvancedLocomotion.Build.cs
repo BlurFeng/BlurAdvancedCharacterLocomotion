@@ -2,16 +2,19 @@
 
 using UnrealBuildTool;
 
-public class BlurActionGameDemo : ModuleRules
+public class AdvancedLocomotion : ModuleRules
 {
-	public BlurActionGameDemo(ReadOnlyTargetRules Target) : base(Target)
+	public AdvancedLocomotion(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
 		PublicDependencyModuleNames.AddRange(
 			new string[] 
 			{ 
-				"Core", "CoreUObject", "Engine", "InputCore",
+				"Core", 
+				"CoreUObject", 
+				"Engine", 
+				"InputCore",
                 "GameplayTags",
             });
 

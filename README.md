@@ -1,4 +1,4 @@
-# 【BlurAdvancedCharacterLocomotion】
+# 【Advanced Character Locomotion】
 
 此项目用于研究 Lyra 形式的高级角色移动动画状态机的构建。 
 

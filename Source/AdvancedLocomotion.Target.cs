@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class BlurActionGameDemoTarget : TargetRules
+public class AdvancedLocomotionTarget : TargetRules
 {
-	public BlurActionGameDemoTarget(TargetInfo Target) : base(Target)
+	public AdvancedLocomotionTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "BlurActionGameDemo" } );
+		ExtraModuleNames.AddRange( new string[] { "AdvancedLocomotion" } );
 	}
 }
